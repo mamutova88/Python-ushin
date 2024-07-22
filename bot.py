@@ -10,7 +10,7 @@ class RegistrationState(StatesGroup):
     phone_num = State()
 
 
-api = '7340838678:AAHWxhtcRv46DfyUdO0ByTvvBgqzuUnpO9Y'
+api = 'sizdin token'
 bot = Bot(api)
 storage = MemoryStorage()
 dp = Dispatcher(bot,storage=storage)
